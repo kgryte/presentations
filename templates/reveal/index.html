@@ -37,7 +37,7 @@
 
     <body>
 
-        <header></header>
+        <header class="bottom-drop-shadow"></header>
 
         <div class="reveal">
 
@@ -51,18 +51,35 @@
 
                 <!-- Slide #2 -->
                 <section>
-                    <h1>{{heading}}</h1>
-                    <h2>{{sub-heading}}</h2>
 
-                    <p>
-                        {{content}}
-                    </p>
+                    <!-- Vertical Slide #1 -->
+                    <section>
+                        <h1>{{heading}}</h1>
+                        <h2>{{sub-heading}}</h2>
 
-                    <aside class="notes">
                         <p>
-                            {{notes}}
+                            {{content}}
                         </p>
-                    </aside>
+
+                        <aside class="notes">
+                            <p>
+                                {{notes}}
+                            </p>
+                        </aside>
+                    </section>
+
+                    <!-- Vertical Slide #2 -->
+                    <section>
+                        <p>
+                            {{content}}
+                        </p>
+
+                        <aside class="notes">
+                            <p>
+                                {{notes}}
+                            </p>
+                        </aside>
+                    </section>
                 </section>
 
                 <!-- Slide #3 -->
@@ -84,7 +101,7 @@
 
         </div>
 
-        <footer></footer>
+        <footer class="top-drop-shadow"></footer>
 
         <script src="js/reveal/lib/head.min.js"></script>
         <script src="js/reveal/reveal.min.js"></script>
