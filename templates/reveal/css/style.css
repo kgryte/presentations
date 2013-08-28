@@ -159,15 +159,17 @@ code span.indent.level-three {
 	box-sizing: border-box;
 }
 
+
 	.reveal h2:after {
 		content: "";
 		display: block;
-		width: 3em;
-		height: 0.55em;
-		background: black;
+		width: 3em; 
+		height: 0.55em; 
+		background: transparent;
 		margin: 0.5em 0 1em;
 		border-radius: 5px;
 	}
+
 
 .reveal h1 {
 	font-size: 2.9em;
